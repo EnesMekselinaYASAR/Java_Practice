@@ -1,5 +1,7 @@
 package day02_recap;
 
+import java.util.Scanner;
+
 public class Q01_Scanner {
     public static void main(String[] args) {
 
@@ -12,5 +14,16 @@ public class Q01_Scanner {
          c sayısını giriniz: 1
          sonuç : 5.333333333333333
         */
+
+        Scanner scan=new Scanner(System.in);
+        System.out.print("a sayisini giriniz:");
+        double a =scan.nextDouble();
+        System.out.print("b sayisini giriniz:");
+        double b=scan.nextDouble();
+        System.out.print("c sayisini giriniz:");
+        double c=scan.nextDouble();
+        double sonuc=(a*a-b*b)/(3*c);
+
+        System.out.println("sonuc = " + sonuc);
     }
 }
