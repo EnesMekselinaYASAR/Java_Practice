@@ -1,6 +1,6 @@
 package day02_recap;
 
-public class Q9_NestedIfandTernary {
+public class Q09_NestedIfandTernary {
     public static void main(String[] args) {
         /*
            0 ~ 9 arasındaki sayilari cevirebilen bir java programi yazin
