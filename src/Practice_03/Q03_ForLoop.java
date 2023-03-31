@@ -10,6 +10,15 @@ public class Q03_ForLoop {
 	 	                            * * * * *
 	 */
 
+        int yukseklik=3, boy=5;
+
+        for (int i = 1; i <=yukseklik ; i++) {
+            for (int j = 1; j <=boy ; j++) {
+                System.out.print("* ");
+            }
+            System.out.println("");
+        }
+
 
 
     }

@@ -15,8 +15,6 @@ public class Q04_MetCreationForLoop {
         System.out.println("Bir string giriniz");
         String str=scan.nextLine();
         System.out.println("String in tersi :"+reverseString(str));
-
-
     }
 
     private static String reverseString(String str) {
