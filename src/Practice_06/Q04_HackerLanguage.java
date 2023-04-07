@@ -14,8 +14,4 @@ public class Q04_HackerLanguage {
     //    hackerDili("java ile hersey guzel")
     //    j4v4 1l3 h3r53y guz3l
     //    İpucu harfleri değiştirin ve ekrana yazdırın.
-
-
-
-
 }
